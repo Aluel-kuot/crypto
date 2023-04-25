@@ -1,0 +1,395 @@
+body{
+    background-image: url("crpt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 4000px;
+}
+/* body::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:800px ;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.5);
+} */
+nav{
+margin-top:50px;
+}
+nav a{
+    text-decoration: none;
+    padding: 40px;
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+    color:#adb5bd;
+}
+.home{
+    color: #40c057;
+    
+}
+.logo{
+    color: white;
+    background-color:#a9e34b;
+}
+.wallet{
+    border: 2px solid #40c057 ;
+    padding: 10px 20px;
+    background-color:#087f5b ;
+}
+.trusted{
+color: white;
+margin-left:20px;
+margin-top: 5%;
+}
+.secure{
+color: #8ce99a;
+}
+.crypto{
+color:#96f2d7 ;
+}
+.swap{
+ color:#adb5bd;
+}
+.get{
+    background-color: #94d82d;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 2%;
+}
+.firstpg{
+    margin-top: 10%;
+    background-color: #b197fc;
+    height: 100px;
+    width: 123%;
+    background-image: linear-gradient(#b197fc,#94d82d , green);
+    padding-top: 80px;
+    
+}
+.por{
+    margin-left: 10%;
+    font-size: xx-large;
+
+    
+}
+.time{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+}
+.king{
+    margin-left: 10%;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.hdk{
+    margin-left: 10%;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.kraken{
+    margin-left: 10%;
+    font-size: xx-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+ 
+}
+.laces{
+    margin-left: 5%;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secondpg{
+    display: flex;
+margin-top: 5%;
+
+}
+.assets{
+color: white;
+font-size: xx-large;
+margin-left:20px;
+}
+.view{
+    color: #96f2d7;
+    font-size: larger;
+    margin-left: 55%;
+    margin-top: 10px;
+}
+.arrow{
+ color: #96f2d7;
+ margin-top: 10px;
+
+}
+table{
+    background-color: #0b091a;
+    margin-left: 5%;
+    width:100%;
+    height: 500px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+.buy1{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff8787;
+}
+th{
+ color:#adb5bd;
+ 
+}
+.red{
+color: red;
+}
+.green{
+    color: #40c057;
+}
+.buy{
+    border:1px solid #800080;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color:#0b091a;
+}
+.chart{
+    color: #ff8787;
+}
+.thirdpg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.pay{
+    border: 1px solid #7382ff;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    background-color:#0b091a;
+    height: 250px;
+    width: 50%;
+    margin-top: 10%;
+}
+.pay1{
+    border: 1px solid #7382ff;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    background-color:#0b091a;
+    height: 250px;
+    width: 50%;
+    margin-top: 20%;
+}
+.best{
+    margin-left: 60%;
+}
+.users{
+    color:#adb5bd;
+}
+.features{
+    color: white;
+}
+.trade{
+    background-color: #94d82d;
+    color: rgb(58, 35, 35);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin-top: 5%;
+}
+.explore{
+    border: 1px solid  #40c057;
+    background-color: #0b091a;
+    color: #40c057;
+    padding: 15px 25px;
+    margin-top: 5%;
+}
+.gif{
+    width: 30%;
+    height: 60px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.invest{
+    color: #40c057;
+}
+.fourthpg{
+    margin-top: 15%;
+
+}
+.smart{
+color: white;
+}
+.lorem{
+    color:#adb5bd;
+
+}
+.cash{
+    background-color: white;
+    color: #ff8787;
+    width: 30%;
+    height: 50px;
+    margin-left: 50%;
+
+}
+.cash1{
+    background-color: white; 
+    color: #b197fc;
+    width: 30%;
+    height: 50px;
+    margin-left: 50%;
+}
+.countries{
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:#7382ff;
+    height: 250px;
+    width: 100%;
+    margin-top: 20%;
+}
+.invested{
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:#ffa2b3;
+    height: 250px;
+    width: 100%;
+    margin-top: 40%;
+    margin-left:10%;
+}
+.country{
+margin-top: 100%;
+font-size: xx-large;
+}
+.inves{
+    padding-top: 100%;
+    font-size: xx-large;
+
+}
+.fourthpg{
+    display: flex;
+}
+.pics{
+    margin-left: 30%;
+    display: flex;
+}
+.currency{
+    color: white;
+}
+.believe{
+    color: #adb5bd;
+}
+.believ{
+    color: white;
+    margin-left: 20px;
+}
+.we{
+    color: #adb5bd;
+    margin-left: 30%;
+}  
+
+.button{
+    border: 1px solid #7382ff;
+    border-radius: 10px;
+    padding:5px 15px;
+    background-color:#0b091a;
+     height: 50px;
+    width: 20%;
+}
+.but{
+    display: flex;
+    margin-top: 5%;
+}
+.eye{
+color: #e27c00;
+}
+.shield{
+color: #1614ff;
+
+
+}
+.people{
+    color:#7382ff ;
+
+}
+.global{
+    display: flex;
+    margin-top: 10%;
+}
+.globes{
+    width: 70%;
+    height: 400px;
+    border-radius: 120px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.fifthpg{
+    display: flex;
+    margin-top: 10%;
+}
+.cr{
+    width: 100%;
+    height: 300px;
+    margin-left: 60%;
+}
+.build{
+    color: white;
+}
+.currency{
+    color: #adb5bd;
+}
+.wall{
+    color: #40c057;
+}
+.play{
+    width: 20%;
+    height: 30px;
+}
+.a{
+    width: 20%;
+    height: 30px;
+}
+.playstore{
+    display: flex;
+    margin-top: 5%;
+}
+.butto{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: #0b091a;
+}
+.buttos{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    background-color: #0b091a;
+}
+.getit{
+    color: white;
+}
+.ready{
+    color: #40c057;
+}
+.new{
+    color: white;
+}
+.enter{
+
+}
+.started{
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
